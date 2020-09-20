@@ -1,0 +1,27 @@
+.body {
+  box-sizing: border-box;
+}
+
+.meter {
+  height: 150px;
+  width: 300px;
+  background-image: url("./masterpiece.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 7px;
+}
+
+.needle {
+  width: 2px;
+  height: 135px;
+  background-color: #000000;
+  transform: var(--rotate);
+  transition: all 0.4s ease-in-out;
+  transform-origin: bottom;
+  margin: auto;
+}
+
+.needle-mark {
+  height: 113px;
+  background-color: #cb4228;
+}
